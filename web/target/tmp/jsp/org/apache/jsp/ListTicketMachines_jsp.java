@@ -181,6 +181,10 @@ public final class ListTicketMachines_jsp extends org.apache.jasper.runtime.Http
       out.write("            <input type=\"hidden\" name=\"action\" value=\"createTicketMachine\">\r\n");
       out.write("            <input type=\"submit\" value=\"Create Ticket Machine\">\r\n");
       out.write("        </form>\r\n");
+      out.write("        <form action=\"index.html\">\r\n");
+      out.write("            <input type=\"hidden\" name=\"action\" value=\"createTicketMachine\">\r\n");
+      out.write("            <input type=\"submit\" value=\"Back To Index\">\r\n");
+      out.write("        </form>\r\n");
       out.write("    </body>\r\n");
       out.write("</html>\r\n");
     } catch (Throwable t) {

@@ -85,9 +85,9 @@
                     <td><input type="text" name="location" value ="<%=ticketMachine.getLocation()%>"></td>
                 </tr>
                 <tr>
-                    <td>Stay Type</td>
+                    <td>Long Stay</td>
                     <td><%=ticketMachine.getStayType()%></td>
-                    <td><input type="text" name="stayType" value ="<%=ticketMachine.getStayType()%>"></td>
+                    <td><input type="checkbox" name="stayType" value="Long Stay"></td>
                 </tr>
                 <tr>
                     <%--<td>field_C</td>

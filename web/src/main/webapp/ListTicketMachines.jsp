@@ -119,5 +119,9 @@
             <input type="hidden" name="action" value="createTicketMachine">
             <input type="submit" value="Create Ticket Machine">
         </form>
+        <form action="index.html">
+            <input type="hidden" name="action" value="createTicketMachine">
+            <input type="submit" value="Back To Index">
+        </form>
     </body>
 </html>

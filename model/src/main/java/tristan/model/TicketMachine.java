@@ -18,7 +18,7 @@ public class TicketMachine {
 
     private String location = null;
 
-    private Boolean stayType;
+    private String stayType;
 
     //not necessary
     //private String field_C = null;
@@ -39,11 +39,11 @@ public class TicketMachine {
         this.location = location;
     }
 
-    public Boolean getStayType() {
+    public String getStayType() {
         return stayType;
     }
 
-    public void setStayType(Boolean stayType) {
+    public void setStayType(String stayType) {
         this.stayType = stayType;
     }
 
