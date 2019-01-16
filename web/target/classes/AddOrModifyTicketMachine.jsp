@@ -85,9 +85,9 @@
                     <td><input type="text" name="location" value ="<%=ticketMachine.getLocation()%>"></td>
                 </tr>
                 <tr>
-                    <td>Stay Type</td>
+                    <td>Schedule ID</td>
                     <td><%=ticketMachine.getStayType()%></td>
-                    <td><input type="text" name="stayType" value="Stay Type"></td>
+                    <td><input type="text" name="stayType" value="null"></td>
                 </tr>
                 <tr>
                     <%--<td>field_C</td>

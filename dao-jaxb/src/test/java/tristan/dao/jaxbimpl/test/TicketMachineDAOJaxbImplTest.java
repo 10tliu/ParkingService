@@ -9,6 +9,8 @@ import java.io.File;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
+
+import org.junit.Assert;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import org.slf4j.Logger;
@@ -75,6 +77,7 @@ public class TicketMachineDAOJaxbImplTest {
             LOG.debug("adding ticketMachine:" + ticketMachine);
             TicketMachine e = ticketMachineDao.createTicketMachine(ticketMachine);
             assertNotNull(e);
+            assertEquals(e.getSchedule().get(0).scheduleID,1);
         }
 
         // check 3 entities added

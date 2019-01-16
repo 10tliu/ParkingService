@@ -1,4 +1,5 @@
 tristan\model\ServiceFacade.class
+tristan\model\TicketMachine$Schedule.class
 tristan\model\TicketMachineDAO.class
 tristan\model\ReplyMessage.class
 tristan\model\TicketMachineList.class

@@ -144,11 +144,11 @@ public final class AddOrModifyTicketMachine_jsp extends org.apache.jasper.runtim
       out.write("\"></td>\r\n");
       out.write("                </tr>\r\n");
       out.write("                <tr>\r\n");
-      out.write("                    <td>Stay Type</td>\r\n");
+      out.write("                    <td>Schedule ID</td>\r\n");
       out.write("                    <td>");
       out.print(ticketMachine.getStayType());
       out.write("</td>\r\n");
-      out.write("                    <td><input type=\"text\" name=\"stayType\" value=\"Stay Type\"></td>\r\n");
+      out.write("                    <td><input type=\"text\" name=\"stayType\" value=\"null\"></td>\r\n");
       out.write("                </tr>\r\n");
       out.write("                <tr>\r\n");
       out.write("                    ");

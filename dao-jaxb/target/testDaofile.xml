@@ -8,12 +8,12 @@
             <stayType>field_B_0</stayType>
             <schedule>
                 <scheduleID>1</scheduleID>
-                <startTime>2019-01-16T19:56:57.607Z</startTime>
+                <startTime>2019-01-16T21:46:51.163Z</startTime>
                 <hourlyRate>10.0</hourlyRate>
             </schedule>
             <schedule>
                 <scheduleID>1</scheduleID>
-                <startTime>2019-01-16T19:56:57.607Z</startTime>
+                <startTime>2019-01-16T21:46:51.163Z</startTime>
                 <hourlyRate>10.0</hourlyRate>
             </schedule>
         </entity>
@@ -23,12 +23,12 @@
             <stayType>field_B_Update</stayType>
             <schedule>
                 <scheduleID>1</scheduleID>
-                <startTime>2019-01-16T19:56:57.607Z</startTime>
+                <startTime>2019-01-16T21:46:51.163Z</startTime>
                 <hourlyRate>10.0</hourlyRate>
             </schedule>
             <schedule>
                 <scheduleID>1</scheduleID>
-                <startTime>2019-01-16T19:56:57.607Z</startTime>
+                <startTime>2019-01-16T21:46:51.163Z</startTime>
                 <hourlyRate>10.0</hourlyRate>
             </schedule>
         </entity>
@@ -38,12 +38,12 @@
             <stayType>field_B_3</stayType>
             <schedule>
                 <scheduleID>1</scheduleID>
-                <startTime>2019-01-16T19:56:57.607Z</startTime>
+                <startTime>2019-01-16T21:46:51.163Z</startTime>
                 <hourlyRate>10.0</hourlyRate>
             </schedule>
             <schedule>
                 <scheduleID>1</scheduleID>
-                <startTime>2019-01-16T19:56:57.607Z</startTime>
+                <startTime>2019-01-16T21:46:51.163Z</startTime>
                 <hourlyRate>10.0</hourlyRate>
             </schedule>
         </entity>

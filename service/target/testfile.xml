@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <ticketMachineList>
-    <lastEntityId>1</lastEntityId>
+    <lastEntityId>2</lastEntityId>
     <entities>
         <entity>
-            <machineId>1</machineId>
+            <machineId>2</machineId>
             <location>testFieldA</location>
         </entity>
     </entities>

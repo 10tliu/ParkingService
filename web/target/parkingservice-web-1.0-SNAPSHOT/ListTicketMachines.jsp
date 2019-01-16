@@ -99,8 +99,8 @@
                 <td><%=ticketMachine.getStayType()%></td>
                 <%--<td><%=ticketMachine.getField_C()%></td>--%>
                 <td>
-                    <form action="AddOrModifyTicketMachine.jsp">
-                        <input type="hidden" name="action" value="modifyTicketMachine">
+                    <form action="schedulelist.jsp">
+                        <input type="hidden" name="action" value="schedulelist">
                         <input type="hidden" name="TicketMachineId" value="<%=ticketMachine.getMachineId()%>">
                         <input type="submit" value="Modify Ticket Machine">
                     </form>

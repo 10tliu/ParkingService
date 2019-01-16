@@ -49,7 +49,7 @@ public class TicketMachine {
 
         @XmlElement(required = true)
         @XmlSchemaType(name = "unsignedShort")
-        private int scheduleID;
+        public int scheduleID;
 
         @XmlElement(required = true)
         private Date startTime;
@@ -62,6 +62,16 @@ public class TicketMachine {
             this.scheduleID = scheduleID;
         }
 
+        public int getScheduleID() {
+            return this.scheduleID;
+        }
+        public Date getStartTime() {
+            return this.startTime;
+        }
+
+        public double getHourlyRate() {
+            return this.hourlyRate;
+        }
         public void setStartTime(Date startTime) {
             this.startTime = startTime;
         }
