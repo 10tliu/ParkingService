@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ticketMachineList>
+    <lastEntityId>4</lastEntityId>
+    <entities>
+        <entity>
+            <machineId>1</machineId>
+            <location>field_A_0</location>
+            <stayType>field_B_0</stayType>
+        </entity>
+        <entity>
+            <machineId>3</machineId>
+            <location>field_A_Update</location>
+            <stayType>field_B_Update</stayType>
+        </entity>
+        <entity>
+            <machineId>4</machineId>
+            <location>field_A_3</location>
+            <stayType>field_B_3</stayType>
+        </entity>
+    </entities>
+</ticketMachineList>

@@ -1,0 +1,3 @@
+tristan\web\WebObjectFactory.class
+tristan\web\rest\ExampleProjectRestImpl.class
+tristan\web\rest\RestApp.class

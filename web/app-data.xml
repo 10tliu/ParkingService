@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ticketMachineList>
+    <lastEntityId>21</lastEntityId>
+    <entities>
+        <entity>
+            <machineId>21</machineId>
+            <location>null</location>
+        </entity>
+    </entities>
+</ticketMachineList>

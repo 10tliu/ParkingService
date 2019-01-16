@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/parkingservice.iml" filepath="$PROJECT_DIR$/parkingservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dao-jaxb/parkingservice-dao-jaxb.iml" filepath="$PROJECT_DIR$/dao-jaxb/parkingservice-dao-jaxb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/model/parkingservice-model.iml" filepath="$PROJECT_DIR$/model/parkingservice-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rest-client/parkingservice-rest-client.iml" filepath="$PROJECT_DIR$/rest-client/parkingservice-rest-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service/parkingservice-service.iml" filepath="$PROJECT_DIR$/service/parkingservice-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/swing-client/parkingservice-swing-client.iml" filepath="$PROJECT_DIR$/swing-client/parkingservice-swing-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web/parkingservice-web.iml" filepath="$PROJECT_DIR$/web/parkingservice-web.iml" />
+    </modules>
+  </component>
+</project>

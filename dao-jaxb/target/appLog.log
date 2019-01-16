@@ -1,0 +1,141 @@
+01:39:37.420 [main] DEBUG tristan.dao.jaxbimpl.TicketMachineDAOJaxbImpl - using dataFile:C:\devel\gitrepos\Assessment\parking\parkingservice\dao-jaxb\target\testDaofile.xml
+01:39:37.420 [main] DEBUG tristan.dao.jaxbimpl.TicketMachineDAOJaxbImpl - dataFile does not exist creating new C:\devel\gitrepos\Assessment\parking\parkingservice\dao-jaxb\target\testDaofile.xml
+01:39:37.435 [main] DEBUG tristan.dao.jaxbimpl.TicketMachineDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ticketMachineList>
+    <entities/>
+</ticketMachineList>
+
+01:39:37.435 [main] DEBUG tristan.dao.jaxbimpl.test.TicketMachineDAOJaxbImplTest - adding ticketMachine:TicketMachine{machineId=null, location=field_A_0, stayType=field_B_0}
+01:39:37.451 [main] DEBUG tristan.dao.jaxbimpl.TicketMachineDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ticketMachineList>
+    <lastEntityId>1</lastEntityId>
+    <entities>
+        <entity>
+            <machineId>1</machineId>
+            <location>field_A_0</location>
+            <stayType>field_B_0</stayType>
+        </entity>
+    </entities>
+</ticketMachineList>
+
+01:39:37.451 [main] DEBUG tristan.dao.jaxbimpl.test.TicketMachineDAOJaxbImplTest - adding ticketMachine:TicketMachine{machineId=null, location=field_A_1, stayType=field_B_1}
+01:39:37.451 [main] DEBUG tristan.dao.jaxbimpl.TicketMachineDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ticketMachineList>
+    <lastEntityId>2</lastEntityId>
+    <entities>
+        <entity>
+            <machineId>1</machineId>
+            <location>field_A_0</location>
+            <stayType>field_B_0</stayType>
+        </entity>
+        <entity>
+            <machineId>2</machineId>
+            <location>field_A_1</location>
+            <stayType>field_B_1</stayType>
+        </entity>
+    </entities>
+</ticketMachineList>
+
+01:39:37.451 [main] DEBUG tristan.dao.jaxbimpl.test.TicketMachineDAOJaxbImplTest - adding ticketMachine:TicketMachine{machineId=null, location=field_A_2, stayType=field_B_2}
+01:39:37.451 [main] DEBUG tristan.dao.jaxbimpl.TicketMachineDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ticketMachineList>
+    <lastEntityId>3</lastEntityId>
+    <entities>
+        <entity>
+            <machineId>1</machineId>
+            <location>field_A_0</location>
+            <stayType>field_B_0</stayType>
+        </entity>
+        <entity>
+            <machineId>2</machineId>
+            <location>field_A_1</location>
+            <stayType>field_B_1</stayType>
+        </entity>
+        <entity>
+            <machineId>3</machineId>
+            <location>field_A_2</location>
+            <stayType>field_B_2</stayType>
+        </entity>
+    </entities>
+</ticketMachineList>
+
+01:39:37.451 [main] DEBUG tristan.dao.jaxbimpl.test.TicketMachineDAOJaxbImplTest - adding ticketMachine:TicketMachine{machineId=null, location=field_A_3, stayType=field_B_3}
+01:39:37.467 [main] DEBUG tristan.dao.jaxbimpl.TicketMachineDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ticketMachineList>
+    <lastEntityId>4</lastEntityId>
+    <entities>
+        <entity>
+            <machineId>1</machineId>
+            <location>field_A_0</location>
+            <stayType>field_B_0</stayType>
+        </entity>
+        <entity>
+            <machineId>2</machineId>
+            <location>field_A_1</location>
+            <stayType>field_B_1</stayType>
+        </entity>
+        <entity>
+            <machineId>3</machineId>
+            <location>field_A_2</location>
+            <stayType>field_B_2</stayType>
+        </entity>
+        <entity>
+            <machineId>4</machineId>
+            <location>field_A_3</location>
+            <stayType>field_B_3</stayType>
+        </entity>
+    </entities>
+</ticketMachineList>
+
+01:39:37.467 [main] DEBUG tristan.dao.jaxbimpl.test.TicketMachineDAOJaxbImplTest - deleting  entity:2
+01:39:37.467 [main] DEBUG tristan.dao.jaxbimpl.TicketMachineDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ticketMachineList>
+    <lastEntityId>4</lastEntityId>
+    <entities>
+        <entity>
+            <machineId>1</machineId>
+            <location>field_A_0</location>
+            <stayType>field_B_0</stayType>
+        </entity>
+        <entity>
+            <machineId>3</machineId>
+            <location>field_A_2</location>
+            <stayType>field_B_2</stayType>
+        </entity>
+        <entity>
+            <machineId>4</machineId>
+            <location>field_A_3</location>
+            <stayType>field_B_3</stayType>
+        </entity>
+    </entities>
+</ticketMachineList>
+
+01:39:37.482 [main] DEBUG tristan.dao.jaxbimpl.test.TicketMachineDAOJaxbImplTest - updating entity: TicketMachine{machineId=3, location=field_A_2, stayType=field_B_2}
+01:39:37.482 [main] DEBUG tristan.dao.jaxbimpl.test.TicketMachineDAOJaxbImplTest - update template: TicketMachine{machineId=3, location=field_A_Update, stayType=field_B_Update}
+01:39:37.482 [main] DEBUG tristan.dao.jaxbimpl.TicketMachineDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ticketMachineList>
+    <lastEntityId>4</lastEntityId>
+    <entities>
+        <entity>
+            <machineId>1</machineId>
+            <location>field_A_0</location>
+            <stayType>field_B_0</stayType>
+        </entity>
+        <entity>
+            <machineId>3</machineId>
+            <location>field_A_Update</location>
+            <stayType>field_B_Update</stayType>
+        </entity>
+        <entity>
+            <machineId>4</machineId>
+            <location>field_A_3</location>
+            <stayType>field_B_3</stayType>
+        </entity>
+    </entities>
+</ticketMachineList>
+
+01:39:37.482 [main] DEBUG tristan.dao.jaxbimpl.test.TicketMachineDAOJaxbImplTest - updated entity: TicketMachine{machineId=3, location=field_A_Update, stayType=field_B_Update}
+01:39:37.482 [main] DEBUG tristan.dao.jaxbimpl.test.TicketMachineDAOJaxbImplTest - retreived entity: TicketMachine{machineId=3, location=field_A_Update, stayType=field_B_Update}
+01:39:37.482 [main] DEBUG tristan.dao.jaxbimpl.test.TicketMachineDAOJaxbImplTest - searching for: TicketMachine{machineId=4, location=field_A_3, stayType=field_B_3}
+01:39:37.482 [main] DEBUG tristan.dao.jaxbimpl.test.TicketMachineDAOJaxbImplTest - using template : TicketMachine{machineId=null, location=null, stayType=field_B_3}
+01:39:37.482 [main] DEBUG tristan.dao.jaxbimpl.test.TicketMachineDAOJaxbImplTest - found : TicketMachine{machineId=4, location=field_A_3, stayType=field_B_3}

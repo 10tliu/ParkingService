@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<replyMessage>
+    <code>200</code>
+    <debugMessage>debug message 1</debugMessage>
+    <ticketMachineList>
+        <entities>
+            <entity>
+                <machineId>0</machineId>
+                <location>field_A_0</location>
+                <stayType>field_B_0</stayType>
+            </entity>
+            <entity>
+                <machineId>1</machineId>
+                <location>field_A_1</location>
+                <stayType>field_B_1</stayType>
+            </entity>
+            <entity>
+                <machineId>2</machineId>
+                <location>field_A_2</location>
+                <stayType>field_B_2</stayType>
+            </entity>
+        </entities>
+    </ticketMachineList>
+</replyMessage>
