@@ -1,9 +1,10 @@
 package tristan.model;
 
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
 import java.util.Objects;
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlRootElement;
+import javax.xml.bind.annotation.*;
 
 /**
  * Simple example entity with 3 fields
@@ -22,6 +23,54 @@ public class TicketMachine {
 
     //not necessary
     //private String field_C = null;
+
+    @XmlElement(required = true)
+    protected List<Schedule> schedule;
+
+    public List<TicketMachine.Schedule> getSchedule() {
+        if (schedule == null) {
+            schedule = new ArrayList<Schedule>();
+        }
+        return this.schedule;
+    }
+
+    public void setSchedule(List<TicketMachine.Schedule> schedules) {
+        schedule = schedules;
+    }
+
+    @XmlAccessorType(XmlAccessType.FIELD)
+    @XmlType(name = "", propOrder = {
+            "scheduleID",
+            "startTime",
+            "hourlyRate"
+    })
+
+    public static class Schedule {
+
+        @XmlElement(required = true)
+        @XmlSchemaType(name = "unsignedShort")
+        private int scheduleID;
+
+        @XmlElement(required = true)
+        private Date startTime;
+
+        @XmlElement(required = true)
+        @XmlSchemaType(name = "unsignedShort")
+        private double hourlyRate;
+
+        public void setScheduleID(int scheduleID) {
+            this.scheduleID = scheduleID;
+        }
+
+        public void setStartTime(Date startTime) {
+            this.startTime = startTime;
+        }
+
+        public void setHourlyRate(double hourlyRate) {
+            this.hourlyRate = hourlyRate;
+        }
+    }
+
 
     public Integer getMachineId() {
         return machineId;

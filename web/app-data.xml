@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <ticketMachineList>
-    <lastEntityId>27</lastEntityId>
+    <lastEntityId>43</lastEntityId>
     <entities>
         <entity>
-            <machineId>27</machineId>
-            <location>hello</location>
-            <stayType>Long Stay</stayType>
+            <machineId>40</machineId>
+            <location>iuhluih</location>
+            <stayType>Stay Type</stayType>
+        </entity>
+        <entity>
+            <machineId>43</machineId>
+            <location>jhjiu</location>
+            <stayType>Stay Type</stayType>
         </entity>
     </entities>
 </ticketMachineList>

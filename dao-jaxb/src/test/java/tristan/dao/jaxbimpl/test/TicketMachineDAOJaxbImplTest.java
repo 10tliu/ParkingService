@@ -6,6 +6,8 @@
 package tristan.dao.jaxbimpl.test;
 
 import java.io.File;
+import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 import org.junit.Test;
 import static org.junit.Assert.*;
@@ -43,13 +45,31 @@ public class TicketMachineDAOJaxbImplTest {
 
         // check there are no entities
         assertTrue(ticketMachineDao.retrieveAllEntities().isEmpty());
+        TicketMachine.Schedule schedules = new TicketMachine.Schedule();
+
+        //Adding Schedules into a list
+        List<TicketMachine.Schedule> schedule = new ArrayList<TicketMachine.Schedule>();
+        TicketMachine.Schedule sch1 = new TicketMachine.Schedule();
+        sch1.setHourlyRate(10);
+        sch1.setScheduleID(1);
+        sch1.setStartTime(new Date());
+
+        TicketMachine.Schedule sch2 = new TicketMachine.Schedule();
+        sch2.setHourlyRate(10);
+        sch2.setScheduleID(1);
+        sch2.setStartTime(new Date());
+
+        schedule.add(sch1);
+        schedule.add(sch1);
 
         // add a 3 entities
         int ENTITY_NUMBER = 4;
         for (int intityId = 0; intityId < ENTITY_NUMBER; intityId++) {
             TicketMachine ticketMachine = new TicketMachine();
             ticketMachine.setLocation("field_A_" + intityId);
-            ticketMachine.setStayType("field_B_" + intityId);;
+            ticketMachine.setStayType("field_B_" + intityId);
+            //Setting the list of schedules
+            ticketMachine.setSchedule(schedule);
             //ticketMachine.setField_C("field_C_" + intityId);;
 
             LOG.debug("adding ticketMachine:" + ticketMachine);

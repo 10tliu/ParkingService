@@ -3,16 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="18af0b6b-6079-4d90-949c-af47ecb7f4e9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao-jaxb/src/test/java/tristan/dao/jaxbimpl/test/TicketMachineDAOJaxbImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/dao-jaxb/src/test/java/tristan/dao/jaxbimpl/test/TicketMachineDAOJaxbImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dao-jaxb/target/appLog.log" beforeDir="false" afterPath="$PROJECT_DIR$/dao-jaxb/target/appLog.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dao-jaxb/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/dao-jaxb/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dao-jaxb/target/parkingservice-dao-jaxb-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/dao-jaxb/target/parkingservice-dao-jaxb-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dao-jaxb/target/surefire-reports/TEST-tristan.dao.jaxbimpl.test.TicketMachineDAOJaxbImplTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dao-jaxb/target/surefire-reports/TEST-tristan.dao.jaxbimpl.test.TicketMachineDAOJaxbImplTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dao-jaxb/target/surefire-reports/tristan.dao.jaxbimpl.test.TicketMachineDAOJaxbImplTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dao-jaxb/target/surefire-reports/tristan.dao.jaxbimpl.test.TicketMachineDAOJaxbImplTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/model/src/main/java/tristan/model/TicketMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/tristan/model/TicketMachine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/target/classes/tristan/model/TicketMachine.class" beforeDir="false" afterPath="$PROJECT_DIR$/model/target/classes/tristan/model/TicketMachine.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/model/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/model/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/model/target/parkingservice-model-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/model/target/parkingservice-model-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/target/surefire-reports/TEST-tristan.model.test.ModelJaxbTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/model/target/surefire-reports/TEST-tristan.model.test.ModelJaxbTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/target/surefire-reports/tristan.model.test.ModelJaxbTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/model/target/surefire-reports/tristan.model.test.ModelJaxbTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rest-client/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/rest-client/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rest-client/target/parkingservice-rest-client-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/rest-client/target/parkingservice-rest-client-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service/target/appLog.log" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/appLog.log" afterDir="false" />
@@ -24,6 +24,7 @@
       <change beforePath="$PROJECT_DIR$/web/src/main/webapp/AddOrModifyTicketMachine.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/webapp/AddOrModifyTicketMachine.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/src/main/webapp/ListTicketMachines.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/webapp/ListTicketMachines.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/target/classes/AddOrModifyTicketMachine.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/AddOrModifyTicketMachine.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/classes/ListTicketMachines.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/ListTicketMachines.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/target/parkingservice-web-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/parkingservice-web-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/target/parkingservice-web-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/parkingservice-web-1.0-SNAPSHOT.war" afterDir="false" />
@@ -34,7 +35,8 @@
       <change beforePath="$PROJECT_DIR$/web/target/parkingservice-web-1.0-SNAPSHOT/WEB-INF/lib/parkingservice-dao-jaxb-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/parkingservice-web-1.0-SNAPSHOT/WEB-INF/lib/parkingservice-dao-jaxb-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/target/parkingservice-web-1.0-SNAPSHOT/WEB-INF/lib/parkingservice-model-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/parkingservice-web-1.0-SNAPSHOT/WEB-INF/lib/parkingservice-model-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/target/parkingservice-web-1.0-SNAPSHOT/WEB-INF/lib/parkingservice-service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/parkingservice-web-1.0-SNAPSHOT/WEB-INF/lib/parkingservice-service-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/tmp/jsp/org/apache/jsp/AddOrModifyTicketMachine_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/tmp/jsp/org/apache/jsp/AddOrModifyTicketMachine_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/tmp/jsp/org/apache/jsp/AddOrModifyTicketMachine_jsp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/tmp/jsp/org/apache/jsp/ListTicketMachines_jsp.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/model/target/" />
     <ignored path="$PROJECT_DIR$/web/target/" />
@@ -54,8 +56,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/src/main/webapp/AddOrModifyTicketMachine.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="89" column="41" selection-start-line="89" selection-start-column="41" selection-end-line="89" selection-end-column="41" />
+            <state relative-caret-position="259">
+              <caret line="73" column="42" selection-start-line="73" selection-start-column="42" selection-end-line="73" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -87,11 +89,21 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/model/src/main/java/tristan/model/TicketMachine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-254">
-              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="418">
+              <caret line="68" column="40" selection-start-line="68" selection-start-column="40" selection-end-line="68" selection-end-column="40" />
+              <folding>
+                <element signature="e#797#798#0" expanded="true" />
+                <element signature="e#833#834#0" expanded="true" />
+                <element signature="e#1390#1391#0" expanded="true" />
+                <element signature="e#1442#1443#0" expanded="true" />
+                <element signature="e#1494#1495#0" expanded="true" />
+                <element signature="e#1544#1545#0" expanded="true" />
+                <element signature="e#1597#1598#0" expanded="true" />
+                <element signature="e#1649#1650#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -99,8 +111,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dao-jaxb/src/test/java/tristan/dao/jaxbimpl/test/TicketMachineDAOJaxbImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="238">
+              <caret line="61" column="27" lean-forward="true" selection-start-line="61" selection-start-column="27" selection-end-line="61" selection-end-column="27" />
+              <folding>
+                <element signature="e#1686#1710#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -123,11 +138,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/src/main/webapp/ListTicketMachines.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="619">
-              <caret line="123" column="55" lean-forward="true" selection-start-line="123" selection-start-column="55" selection-end-line="123" selection-end-column="55" />
+            <state relative-caret-position="222">
+              <caret line="97" column="42" selection-start-line="97" selection-start-column="42" selection-end-line="97" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -141,6 +156,7 @@
       <find>stay type</find>
       <find>bool</find>
       <find>check</find>
+      <find>long</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -157,13 +173,13 @@
         <option value="$PROJECT_DIR$/swing-client/pom.xml" />
         <option value="$PROJECT_DIR$/rest-client/pom.xml" />
         <option value="$PROJECT_DIR$/model/src/test/java/tristan/model/test/ModelJaxbTest.java" />
-        <option value="$PROJECT_DIR$/dao-jaxb/src/test/java/tristan/dao/jaxbimpl/test/TicketMachineDAOJaxbImplTest.java" />
         <option value="$PROJECT_DIR$/dao-jaxb/src/main/java/tristan/dao/jaxbimpl/TicketMachineDAOJaxbImpl.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/web/src/main/webapp/index.html" />
-        <option value="$PROJECT_DIR$/model/src/main/java/tristan/model/TicketMachine.java" />
-        <option value="$PROJECT_DIR$/web/src/main/webapp/AddOrModifyTicketMachine.jsp" />
         <option value="$PROJECT_DIR$/web/src/main/webapp/ListTicketMachines.jsp" />
+        <option value="$PROJECT_DIR$/web/src/main/webapp/AddOrModifyTicketMachine.jsp" />
+        <option value="$PROJECT_DIR$/dao-jaxb/src/test/java/tristan/dao/jaxbimpl/test/TicketMachineDAOJaxbImplTest.java" />
+        <option value="$PROJECT_DIR$/model/src/main/java/tristan/model/TicketMachine.java" />
       </list>
     </option>
   </component>
@@ -175,10 +191,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="85" />
-    <option name="y" value="25" />
-    <option name="width" value="1750" />
-    <option name="height" value="1030" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1098" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -314,8 +330,8 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547607938908" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547668645234" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../park/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -332,6 +348,29 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="TicketMachineDAOJaxbImplTest.testDestinationsDAOJaxb" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="parkingservice-dao-jaxb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tristan.dao.jaxbimpl.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tristan.dao.jaxbimpl.test" />
+      <option name="MAIN_CLASS_NAME" value="tristan.dao.jaxbimpl.test.TicketMachineDAOJaxbImplTest" />
+      <option name="METHOD_NAME" value="testDestinationsDAOJaxb" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TicketMachineDAOJaxbImplTest.testDestinationsDAOJaxb" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -344,12 +383,20 @@
       <updated>1547599855617</updated>
       <workItem from="1547599861208" duration="3024000" />
       <workItem from="1547602956336" duration="4777000" />
-      <workItem from="1547660525152" duration="418000" />
+      <workItem from="1547660525152" duration="2747000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="TicketMachineDAOJaxbImplTest_testDestinationsDAOJaxb - 2019.01.16 at 19h 41m 36s.xml">
+      <configuration name="TicketMachineDAOJaxbImplTest.testDestinationsDAOJaxb" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TicketMachineDAOJaxbImplTest_testDestinationsDAOJaxb - 2019.01.16 at 19h 53m 38s.xml">
+      <configuration name="TicketMachineDAOJaxbImplTest.testDestinationsDAOJaxb" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8307000" />
+    <option name="totallyTimeSpent" value="10636000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -372,9 +419,10 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3297587" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3297587" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -494,13 +542,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dao-jaxb/src/test/java/tristan/dao/jaxbimpl/test/TicketMachineDAOJaxbImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dao-jaxb/src/main/java/tristan/dao/jaxbimpl/TicketMachineDAOJaxbImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2703">
@@ -515,13 +556,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/src/main/java/tristan/model/TicketMachine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-254">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/src/main/webapp/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -529,17 +563,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/AddOrModifyTicketMachine.jsp">
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/ListTicketMachines.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="222">
-          <caret line="89" column="41" selection-start-line="89" selection-start-column="41" selection-end-line="89" selection-end-column="41" />
+          <caret line="97" column="42" selection-start-line="97" selection-start-column="42" selection-end-line="97" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/ListTicketMachines.jsp">
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/AddOrModifyTicketMachine.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="619">
-          <caret line="123" column="55" lean-forward="true" selection-start-line="123" selection-start-column="55" selection-end-line="123" selection-end-column="55" />
+        <state relative-caret-position="259">
+          <caret line="73" column="42" selection-start-line="73" selection-start-column="42" selection-end-line="73" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dao-jaxb/src/test/java/tristan/dao/jaxbimpl/test/TicketMachineDAOJaxbImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="61" column="27" lean-forward="true" selection-start-line="61" selection-start-column="27" selection-end-line="61" selection-end-column="27" />
+          <folding>
+            <element signature="e#1686#1710#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/src/main/java/tristan/model/TicketMachine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="68" column="40" selection-start-line="68" selection-start-column="40" selection-end-line="68" selection-end-column="40" />
+          <folding>
+            <element signature="e#797#798#0" expanded="true" />
+            <element signature="e#833#834#0" expanded="true" />
+            <element signature="e#1390#1391#0" expanded="true" />
+            <element signature="e#1442#1443#0" expanded="true" />
+            <element signature="e#1494#1495#0" expanded="true" />
+            <element signature="e#1544#1545#0" expanded="true" />
+            <element signature="e#1597#1598#0" expanded="true" />
+            <element signature="e#1649#1650#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

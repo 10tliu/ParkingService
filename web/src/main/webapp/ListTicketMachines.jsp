@@ -88,7 +88,7 @@
             <tr>
                 <th>Machine ID</th>
                 <th>Location</th>
-                <th>Long Stay</th>
+                <th>Stay Type</th>
                 <th>Modify Or Delete</th>
             </tr>
             <%  for (TicketMachine ticketMachine : ticketMachineList) {

@@ -6,16 +6,46 @@
             <machineId>1</machineId>
             <location>field_A_0</location>
             <stayType>field_B_0</stayType>
+            <schedule>
+                <scheduleID>1</scheduleID>
+                <startTime>2019-01-16T19:56:57.607Z</startTime>
+                <hourlyRate>10.0</hourlyRate>
+            </schedule>
+            <schedule>
+                <scheduleID>1</scheduleID>
+                <startTime>2019-01-16T19:56:57.607Z</startTime>
+                <hourlyRate>10.0</hourlyRate>
+            </schedule>
         </entity>
         <entity>
             <machineId>3</machineId>
             <location>field_A_Update</location>
             <stayType>field_B_Update</stayType>
+            <schedule>
+                <scheduleID>1</scheduleID>
+                <startTime>2019-01-16T19:56:57.607Z</startTime>
+                <hourlyRate>10.0</hourlyRate>
+            </schedule>
+            <schedule>
+                <scheduleID>1</scheduleID>
+                <startTime>2019-01-16T19:56:57.607Z</startTime>
+                <hourlyRate>10.0</hourlyRate>
+            </schedule>
         </entity>
         <entity>
             <machineId>4</machineId>
             <location>field_A_3</location>
             <stayType>field_B_3</stayType>
+            <schedule>
+                <scheduleID>1</scheduleID>
+                <startTime>2019-01-16T19:56:57.607Z</startTime>
+                <hourlyRate>10.0</hourlyRate>
+            </schedule>
+            <schedule>
+                <scheduleID>1</scheduleID>
+                <startTime>2019-01-16T19:56:57.607Z</startTime>
+                <hourlyRate>10.0</hourlyRate>
+            </schedule>
         </entity>
     </entities>
 </ticketMachineList>

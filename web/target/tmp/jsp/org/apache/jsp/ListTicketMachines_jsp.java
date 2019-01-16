@@ -135,7 +135,7 @@ public final class ListTicketMachines_jsp extends org.apache.jasper.runtime.Http
       out.write("            <tr>\r\n");
       out.write("                <th>Machine ID</th>\r\n");
       out.write("                <th>Location</th>\r\n");
-      out.write("                <th>Long Stay</th>\r\n");
+      out.write("                <th>Stay Type</th>\r\n");
       out.write("                <th>Modify Or Delete</th>\r\n");
       out.write("            </tr>\r\n");
       out.write("            ");
