@@ -1,29 +1,16 @@
-21:46:52.628 [main] DEBUG tristan.dao.jaxbimpl.TicketMachineDAOJaxbImpl - using dataFile:C:\devel\gitrepos\Assessment\parking\parkingservice\service\.\target\testfile.xml
-21:46:52.631 [main] DEBUG tristan.dao.jaxbimpl.TicketMachineDAOJaxbImpl - dataFile does not exist creating new C:\devel\gitrepos\Assessment\parking\parkingservice\service\.\target\testfile.xml
-21:46:52.643 [main] DEBUG tristan.dao.jaxbimpl.TicketMachineDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+17:14:28.586 [main] DEBUG tristan.dao.jaxbimpl.TicketMachineDAOJaxbImpl - using dataFile:C:\devel\gitrepos\Assessment\parking\parkingservice\service\.\target\testfile.xml
+17:14:28.586 [main] DEBUG tristan.dao.jaxbimpl.TicketMachineDAOJaxbImpl - dataFile does not exist creating new C:\devel\gitrepos\Assessment\parking\parkingservice\service\.\target\testfile.xml
+17:14:28.586 [main] DEBUG tristan.dao.jaxbimpl.TicketMachineDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <ticketMachineList>
     <entities/>
 </ticketMachineList>
 
-21:46:52.652 [main] DEBUG tristan.dao.jaxbimpl.TicketMachineDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+17:14:28.602 [main] DEBUG tristan.dao.jaxbimpl.TicketMachineDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <ticketMachineList>
     <lastEntityId>1</lastEntityId>
     <entities>
         <entity>
             <machineId>1</machineId>
-            <location>testFieldA</location>
-        </entity>
-    </entities>
-</ticketMachineList>
-
-22:05:41.190 [main] DEBUG tristan.dao.jaxbimpl.TicketMachineDAOJaxbImpl - using dataFile:C:\devel\gitrepos\Assessment\parking\parkingservice\service\.\target\testfile.xml
-22:05:41.194 [main] DEBUG tristan.dao.jaxbimpl.TicketMachineDAOJaxbImpl - dataFile exists loading:C:\devel\gitrepos\Assessment\parking\parkingservice\service\.\target\testfile.xml
-22:05:41.223 [main] DEBUG tristan.dao.jaxbimpl.TicketMachineDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<ticketMachineList>
-    <lastEntityId>2</lastEntityId>
-    <entities>
-        <entity>
-            <machineId>2</machineId>
             <location>testFieldA</location>
         </entity>
     </entities>

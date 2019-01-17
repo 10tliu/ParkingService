@@ -83,7 +83,7 @@
     <body>
         <!-- print error message if there is one -->
         <div style="color:red;"><%=errorMessage%></div>
-        <h1>Ticket Machine List</h1>
+        <h1>Purchase Tickets</h1>
         <table>
             <tr>
                 <th>Machine ID</th>

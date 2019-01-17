@@ -18,6 +18,7 @@ import org.slf4j.LoggerFactory;
 import tristan.dao.jaxbimpl.TicketMachineDAOJaxbImpl;
 import tristan.model.TicketMachine;
 import tristan.model.TicketMachineDAO;
+import tristan.model.Schedule;
 
 /**
  * tests for entityDao.createTicketMachine(entity) entityDao.deleteTicketMachine(Id) entityDao.retrieveAllEntities() entityDao.retrieveTicketMachine(Id)
@@ -47,16 +48,16 @@ public class TicketMachineDAOJaxbImplTest {
 
         // check there are no entities
         assertTrue(ticketMachineDao.retrieveAllEntities().isEmpty());
-        TicketMachine.Schedule schedules = new TicketMachine.Schedule();
+        Schedule schedules = new Schedule();
 
         //Adding Schedules into a list
-        List<TicketMachine.Schedule> schedule = new ArrayList<TicketMachine.Schedule>();
-        TicketMachine.Schedule sch1 = new TicketMachine.Schedule();
+        List<Schedule> schedule = new ArrayList<Schedule>();
+        Schedule sch1 = new Schedule();
         sch1.setHourlyRate(10);
         sch1.setScheduleID(1);
         sch1.setStartTime(new Date());
 
-        TicketMachine.Schedule sch2 = new TicketMachine.Schedule();
+        Schedule sch2 = new Schedule();
         sch2.setHourlyRate(10);
         sch2.setScheduleID(1);
         sch2.setStartTime(new Date());
@@ -77,7 +78,7 @@ public class TicketMachineDAOJaxbImplTest {
             LOG.debug("adding ticketMachine:" + ticketMachine);
             TicketMachine e = ticketMachineDao.createTicketMachine(ticketMachine);
             assertNotNull(e);
-            assertEquals(e.getSchedule().get(0).scheduleID,1);
+            assertEquals(e.getSchedule().get(0).getScheduleID(),1);
         }
 
         // check 3 entities added

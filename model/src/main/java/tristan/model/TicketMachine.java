@@ -24,27 +24,31 @@ public class TicketMachine {
     //not necessary
     //private String field_C = null;
 
-    @XmlElement(required = true)
+
+    @XmlElementWrapper(name = "schedules")
+    @XmlElement(name="schedule", required = true)
     protected List<Schedule> schedule;
 
-    public List<TicketMachine.Schedule> getSchedule() {
+    public List<Schedule> getSchedule() {
         if (schedule == null) {
             schedule = new ArrayList<Schedule>();
         }
         return this.schedule;
     }
 
-    public void setSchedule(List<TicketMachine.Schedule> schedules) {
+    public void setSchedule(List<Schedule> schedules) {
         schedule = schedules;
     }
 
-    @XmlAccessorType(XmlAccessType.FIELD)
+/*    @XmlAccessorType(XmlAccessType.FIELD)
     @XmlType(name = "", propOrder = {
             "scheduleID",
             "startTime",
             "hourlyRate"
-    })
+    })*/
 
+    //creates the Schedule class inside ticket machine class, can use . to access this class.
+/*
     public static class Schedule {
 
         @XmlElement(required = true)
@@ -80,6 +84,7 @@ public class TicketMachine {
             this.hourlyRate = hourlyRate;
         }
     }
+*/
 
 
     public Integer getMachineId() {

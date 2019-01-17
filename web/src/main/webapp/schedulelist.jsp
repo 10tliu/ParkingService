@@ -10,13 +10,14 @@
 <%@page import="tristan.model.ServiceFactory"%>
 <%@page import="tristan.model.ServiceFacade"%>
 <%@page import="tristan.model.TicketMachine"%>
+<%@page import="tristan.model.Schedule"%>
 <%@ page import="java.util.ArrayList" %>
 <%@ page import="sun.security.krb5.internal.Ticket" %>
 
 <%
 
     ServiceFacade serviceFacade = (ServiceFacade) session.getAttribute("serviceFacade");
-    List<TicketMachine.Schedule> listofschedules= new ArrayList<TicketMachine.Schedule>();
+    List<Schedule> listofschedules= new ArrayList<Schedule>();
 
     // If the user session has no bankApi, create a new one
     if (serviceFacade == null) {
@@ -30,21 +31,29 @@
     String ticketMachineIdReq = (String) request.getParameter("TicketMachineId");
     String ticketMachineField_AReq = (String) request.getParameter("location");
     String ticketMachineField_BReq = (String) request.getParameter("stayType");
-    String ticketMachineField_CReq = (String) request.getParameter("field_C");
+    //String ticketMachineField_CReq = (String) request.getParameter("field_C");
+
+    Integer ticketMachineId = Integer.valueOf(ticketMachineIdReq);
+    TicketMachine ticketMachine = serviceFacade.retrieveTicketMachine(ticketMachineId);
+    if (ticketMachine!= null) listofschedules = ticketMachine.getSchedule();
 
     String errorMessage = "";
-    if (action.equals("schedulelist")) {
+ /*   if (action.equals("schedulelist")) {
        try{
 
            List<TicketMachine> ticketMachineswithschedules = serviceFacade.retrieveAllEntities();
-           //listofschedules = ticketMachineswithschedules.get(0).getSchedule();
+//           listofschedules = ticketMachineswithschedules.get(0).getSchedule();
+
+
            for(int i=0;i<ticketMachineswithschedules.size();i++)
            {
-               String machineid =ticketMachineswithschedules.get(i).getMachineId().toString();
-
-               if (machineid.equals(ticketMachineIdReq))
+               System.out.println(ticketMachineswithschedules.size());
+               Integer machineid =ticketMachineswithschedules.get(i).getMachineId();
+               System.out.println(ticketMachineswithschedules.get(i).getMachineId());
+               if (machineid.equals(tickeMachineId))
                {
                    listofschedules = ticketMachineswithschedules.get(i).getSchedule();
+                   System.out.println(listofschedules.size());
                }
                break;
            }
@@ -53,11 +62,8 @@
        {
           // errorMessage = "problem creating  TicketMachine " + e.getMessage();
        }
-   }
+   }*/
 
-
-    List<TicketMachine> ticketMachineList = serviceFacade.retrieveAllEntities();
-    listofschedules = ticketMachineList.get(0).getSchedule();
 
 %>
 
@@ -82,7 +88,7 @@
         <th>Hourly Rate</th>
 
     </tr>
-    <%  for (TicketMachine.Schedule schedule : listofschedules) {
+    <%  for (Schedule schedule : listofschedules) {
     %>
     <tr>
         <td><%=schedule.getScheduleID()%></td>
@@ -107,7 +113,7 @@
 <BR>
 
 <form action="ListTicketMachines.jsp">
-    <input type="hidden" name="action" value="createTicketMachine">
+    <input type="hidden" name="action" value="schedulelist">
     <input type="submit" value="Back To Ticket Machine List">
 </form>
 </body>

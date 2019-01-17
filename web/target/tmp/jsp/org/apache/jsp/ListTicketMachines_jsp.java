@@ -169,6 +169,13 @@ public final class ListTicketMachines_jsp extends org.apache.jasper.runtime.Http
       out.write("\">\r\n");
       out.write("                        <input type=\"submit\" value=\"Delete Ticket Machine\">\r\n");
       out.write("                    </form>\r\n");
+      out.write("                    <form action=\"parkingclient.jsp\">\r\n");
+      out.write("                        <input type=\"hidden\" name=\"action\" value=\"parkingclient\">\r\n");
+      out.write("                        <input type=\"hidden\" name=\"TicketMachineId\" value=\"");
+      out.print(ticketMachine.getMachineId());
+      out.write("\">\r\n");
+      out.write("                        <input type=\"submit\" value=\"Purchase Ticket\">\r\n");
+      out.write("                    </form>\r\n");
       out.write("                </td>\r\n");
       out.write("            </tr>\r\n");
       out.write("            ");
@@ -182,7 +189,7 @@ public final class ListTicketMachines_jsp extends org.apache.jasper.runtime.Http
       out.write("            <input type=\"submit\" value=\"Create Ticket Machine\">\r\n");
       out.write("        </form>\r\n");
       out.write("        <form action=\"index.html\">\r\n");
-      out.write("            <input type=\"hidden\" name=\"action\" value=\"createTicketMachine\">\r\n");
+      out.write("            <input type=\"hidden\" name=\"\" value=\"\">\r\n");
       out.write("            <input type=\"submit\" value=\"Back To Index\">\r\n");
       out.write("        </form>\r\n");
       out.write("    </body>\r\n");

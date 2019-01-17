@@ -88,7 +88,7 @@
             <tr>
                 <th>Machine ID</th>
                 <th>Location</th>
-                <th>Stay Type</th>
+                <th>Schedule ID</th>
                 <th>Modify Or Delete</th>
             </tr>
             <%  for (TicketMachine ticketMachine : ticketMachineList) {
@@ -102,7 +102,7 @@
                     <form action="schedulelist.jsp">
                         <input type="hidden" name="action" value="schedulelist">
                         <input type="hidden" name="TicketMachineId" value="<%=ticketMachine.getMachineId()%>">
-                        <input type="submit" value="Modify Ticket Machine">
+                        <input type="submit" value="View Schedules">
                     </form>
                     <form action="ListTicketMachines.jsp">
                         <input type="hidden" name="action" value="deleteTicketMachine">

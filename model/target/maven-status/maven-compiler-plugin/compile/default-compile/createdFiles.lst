@@ -1,8 +1,8 @@
 tristan\model\ServiceFacade.class
-tristan\model\TicketMachine$Schedule.class
 tristan\model\TicketMachineDAO.class
 tristan\model\ReplyMessage.class
 tristan\model\TicketMachineList.class
 tristan\model\RestInterface.class
+tristan\model\Schedule.class
 tristan\model\TicketMachine.class
 tristan\model\ServiceFactory.class

@@ -8,6 +8,7 @@ import tristan.web.WebObjectFactory;
 import tristan.model.ServiceFactory;
 import tristan.model.ServiceFacade;
 import tristan.model.TicketMachine;
+import tristan.model.Schedule;
 import java.util.ArrayList;
 import sun.security.krb5.internal.Ticket;
 
@@ -59,10 +60,11 @@ public final class schedulelist_jsp extends org.apache.jasper.runtime.HttpJspBas
       out.write("\r\n");
       out.write("\r\n");
       out.write("\r\n");
+      out.write("\r\n");
 
 
     ServiceFacade serviceFacade = (ServiceFacade) session.getAttribute("serviceFacade");
-    List<TicketMachine.Schedule> listofschedules= new ArrayList<TicketMachine.Schedule>();
+    List<Schedule> listofschedules= new ArrayList<Schedule>();
 
     // If the user session has no bankApi, create a new one
     if (serviceFacade == null) {
@@ -76,21 +78,29 @@ public final class schedulelist_jsp extends org.apache.jasper.runtime.HttpJspBas
     String ticketMachineIdReq = (String) request.getParameter("TicketMachineId");
     String ticketMachineField_AReq = (String) request.getParameter("location");
     String ticketMachineField_BReq = (String) request.getParameter("stayType");
-    String ticketMachineField_CReq = (String) request.getParameter("field_C");
+    //String ticketMachineField_CReq = (String) request.getParameter("field_C");
+
+    Integer ticketMachineId = Integer.valueOf(ticketMachineIdReq);
+    TicketMachine ticketMachine = serviceFacade.retrieveTicketMachine(ticketMachineId);
+    if (ticketMachine!= null) listofschedules = ticketMachine.getSchedule();
 
     String errorMessage = "";
-    if (action.equals("schedulelist")) {
+ /*   if (action.equals("schedulelist")) {
        try{
 
            List<TicketMachine> ticketMachineswithschedules = serviceFacade.retrieveAllEntities();
-           //listofschedules = ticketMachineswithschedules.get(0).getSchedule();
+//           listofschedules = ticketMachineswithschedules.get(0).getSchedule();
+
+
            for(int i=0;i<ticketMachineswithschedules.size();i++)
            {
-               String machineid =ticketMachineswithschedules.get(i).getMachineId().toString();
-
-               if (machineid.equals(ticketMachineIdReq))
+               System.out.println(ticketMachineswithschedules.size());
+               Integer machineid =ticketMachineswithschedules.get(i).getMachineId();
+               System.out.println(ticketMachineswithschedules.get(i).getMachineId());
+               if (machineid.equals(tickeMachineId))
                {
                    listofschedules = ticketMachineswithschedules.get(i).getSchedule();
+                   System.out.println(listofschedules.size());
                }
                break;
            }
@@ -99,11 +109,8 @@ public final class schedulelist_jsp extends org.apache.jasper.runtime.HttpJspBas
        {
           // errorMessage = "problem creating  TicketMachine " + e.getMessage();
        }
-   }
+   }*/
 
-
-    List<TicketMachine> ticketMachineList = serviceFacade.retrieveAllEntities();
-    listofschedules = ticketMachineList.get(0).getSchedule();
 
 
       out.write("\r\n");
@@ -132,7 +139,7 @@ public final class schedulelist_jsp extends org.apache.jasper.runtime.HttpJspBas
       out.write("\r\n");
       out.write("    </tr>\r\n");
       out.write("    ");
-  for (TicketMachine.Schedule schedule : listofschedules) {
+  for (Schedule schedule : listofschedules) {
     
       out.write("\r\n");
       out.write("    <tr>\r\n");
@@ -156,7 +163,7 @@ public final class schedulelist_jsp extends org.apache.jasper.runtime.HttpJspBas
       out.write("<BR>\r\n");
       out.write("\r\n");
       out.write("<form action=\"ListTicketMachines.jsp\">\r\n");
-      out.write("    <input type=\"hidden\" name=\"action\" value=\"createTicketMachine\">\r\n");
+      out.write("    <input type=\"hidden\" name=\"action\" value=\"schedulelist\">\r\n");
       out.write("    <input type=\"submit\" value=\"Back To Ticket Machine List\">\r\n");
       out.write("</form>\r\n");
       out.write("</body>\r\n");

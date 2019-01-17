@@ -109,6 +109,11 @@
                         <input type="hidden" name="ticketMachineId" value="<%=ticketMachine.getMachineId()%>">
                         <input type="submit" value="Delete Ticket Machine">
                     </form>
+                    <form action="parkingclient.jsp">
+                        <input type="hidden" name="action" value="parkingclient">
+                        <input type="hidden" name="TicketMachineId" value="<%=ticketMachine.getMachineId()%>">
+                        <input type="submit" value="Purchase Ticket">
+                    </form>
                 </td>
             </tr>
             <% }%>
@@ -120,7 +125,7 @@
             <input type="submit" value="Create Ticket Machine">
         </form>
         <form action="index.html">
-            <input type="hidden" name="action" value="createTicketMachine">
+            <input type="hidden" name="" value="">
             <input type="submit" value="Back To Index">
         </form>
     </body>

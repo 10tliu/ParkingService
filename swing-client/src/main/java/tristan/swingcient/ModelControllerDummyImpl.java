@@ -33,7 +33,7 @@ public class ModelControllerDummyImpl implements ModelController {
             ticketMachine.setMachineId(intityId);
             ticketMachine.setLocation("field_A_" + intityId);
             ticketMachine.setStayType("field_B_" + intityId);;
-            ticketMachine.setField_C("field_C_" + intityId);;
+            //ticketMachine.setField_C("field_C_" + intityId);;
             elist.add(ticketMachine);
         }
         entityListTableModel.setEntities(elist);

@@ -43,4 +43,8 @@ public class ServiceFacadeImplTest {
 
         assertEquals(1, retrievedEntities.size());
     }
+
+    @Test
+    public void retrieveTicketMachine() {
+    }
 }

@@ -1,11 +1,35 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <ticketMachineList>
-    <lastEntityId>26</lastEntityId>
+    <lastEntityId>1</lastEntityId>
     <entities>
         <entity>
-            <machineId>26</machineId>
-            <location>Southampton</location>
-            <stayType>1</stayType>
+            <machineId>1</machineId>
+            <location>drthdrth</location>
+            <stayType>3</stayType>
+            <schedules>
+                <schedule>
+                    <scheduleID>11</scheduleID>
+                    <startTime></startTime>
+                    <hourlyRate>10.0</hourlyRate>
+                </schedule>
+                <schedule>
+                    <scheduleID>2</scheduleID>
+                    <startTime></startTime>
+                    <hourlyRate>15.0</hourlyRate>
+                </schedule>
+            </schedules>
+        </entity>
+        <entity>
+            <machineId>2</machineId>
+            <location>dgrdgr</location>
+            <stayType>4</stayType>
+            <schedules>
+                <schedule>
+                    <scheduleID>4</scheduleID>
+                    <startTime></startTime>
+                    <hourlyRate>15.0</hourlyRate>
+                </schedule>
+            </schedules>
         </entity>
     </entities>
 </ticketMachineList>
