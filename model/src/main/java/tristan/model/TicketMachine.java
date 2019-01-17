@@ -111,6 +111,11 @@ public class TicketMachine {
         this.stayType = stayType;
     }
 
+    public void addSchedule(Schedule schedule) {
+        List<Schedule>schedList = getSchedule();
+        schedList.add(schedule);
+    }
+
    /* public String getField_C() {
         return field_C;
     }*/

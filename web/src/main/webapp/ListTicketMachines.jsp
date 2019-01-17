@@ -102,7 +102,7 @@
                     <form action="schedulelist.jsp">
                         <input type="hidden" name="action" value="schedulelist">
                         <input type="hidden" name="TicketMachineId" value="<%=ticketMachine.getMachineId()%>">
-                        <input type="submit" value="View Schedules">
+                        <input type="submit" value="View Schedule For This Machine">
                     </form>
                     <form action="ListTicketMachines.jsp">
                         <input type="hidden" name="action" value="deleteTicketMachine">

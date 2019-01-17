@@ -116,5 +116,10 @@
     <input type="hidden" name="action" value="schedulelist">
     <input type="submit" value="Back To Ticket Machine List">
 </form>
+<form action="AddOrModifySchedule.jsp">
+    <input type="hidden" name="action" value="modifySchedule">
+    <input type="hidden" name="ticketMachineId" value="<%ticketMachine.getMachineId();%>">
+    <input type="submit" value="Modify Schedule">
+</form>
 </body>
 </html>

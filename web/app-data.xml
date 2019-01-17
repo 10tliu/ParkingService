@@ -4,30 +4,55 @@
     <entities>
         <entity>
             <machineId>1</machineId>
-            <location>drthdrth</location>
-            <stayType>3</stayType>
+            <location>Southampton</location>
+            <stayType>1</stayType>
             <schedules>
                 <schedule>
-                    <scheduleID>11</scheduleID>
-                    <startTime></startTime>
-                    <hourlyRate>10.0</hourlyRate>
+                    <scheduleID>1</scheduleID>
+                    <startTime>00:00:00</startTime>
+                    <hourlyRate>3.0</hourlyRate>
                 </schedule>
                 <schedule>
                     <scheduleID>2</scheduleID>
-                    <startTime></startTime>
-                    <hourlyRate>15.0</hourlyRate>
+                    <startTime>06:00:00</startTime>
+                    <hourlyRate>4.0</hourlyRate>
+                </schedule>
+                <schedule>
+                    <scheduleID>2</scheduleID>
+                    <startTime>12:00:00</startTime>
+                    <hourlyRate>5.0</hourlyRate>
+                </schedule>
+                <schedule>
+                    <scheduleID>2</scheduleID>
+                    <startTime>18:00:00</startTime>
+                    <hourlyRate>2.0</hourlyRate>
                 </schedule>
             </schedules>
         </entity>
         <entity>
             <machineId>2</machineId>
-            <location>dgrdgr</location>
-            <stayType>4</stayType>
+            <location>London</location>
+            <stayType>2</stayType>
             <schedules>
                 <schedule>
-                    <scheduleID>4</scheduleID>
-                    <startTime></startTime>
+                    <scheduleID>1</scheduleID>
+                    <startTime>00:00:00</startTime>
+                    <hourlyRate>6.0</hourlyRate>
+                </schedule>
+                <schedule>
+                    <scheduleID>2</scheduleID>
+                    <startTime>06:00:00</startTime>
+                    <hourlyRate>10.0</hourlyRate>
+                </schedule>
+                <schedule>
+                    <scheduleID>3</scheduleID>
+                    <startTime>12:00:00</startTime>
                     <hourlyRate>15.0</hourlyRate>
+                </schedule>
+                <schedule>
+                    <scheduleID>4</scheduleID>
+                    <startTime>18:00:00</startTime>
+                    <hourlyRate>10.0</hourlyRate>
                 </schedule>
             </schedules>
         </entity>

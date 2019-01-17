@@ -133,8 +133,8 @@ public final class schedulelist_jsp extends org.apache.jasper.runtime.HttpJspBas
       out.write("\r\n");
       out.write("<table>\r\n");
       out.write("    <tr>\r\n");
-      out.write("        <th>Schedule ID</th>\r\n");
-      out.write("        <th>Start Time</th>\r\n");
+      out.write("        <th>Schedule Band</th>\r\n");
+      out.write("        <th>Band Start Time</th>\r\n");
       out.write("        <th>Hourly Rate</th>\r\n");
       out.write("\r\n");
       out.write("    </tr>\r\n");
@@ -166,6 +166,14 @@ public final class schedulelist_jsp extends org.apache.jasper.runtime.HttpJspBas
       out.write("    <input type=\"hidden\" name=\"action\" value=\"schedulelist\">\r\n");
       out.write("    <input type=\"submit\" value=\"Back To Ticket Machine List\">\r\n");
       out.write("</form>\r\n");
+      out.write("<form action=\"AddOrModifySchedule.jsp\">\r\n");
+      out.write("    <input type=\"hidden\" name=\"action\" value=\"modifySchedule\">\r\n");
+      out.write("    <input type=\"hidden\" name=\"ticketMachineId\" value=\"");
+ticketMachine.getMachineId();
+      out.write("\">\r\n");
+      out.write("    <input type=\"submit\" value=\"Modify Schedule\">\r\n");
+      out.write("</form>\r\n");
+      out.write("<a href=\"/AddOrModifySchedule.jsp\">Modify Schedule</a>\r\n");
       out.write("</body>\r\n");
       out.write("</html>\r\n");
     } catch (Throwable t) {

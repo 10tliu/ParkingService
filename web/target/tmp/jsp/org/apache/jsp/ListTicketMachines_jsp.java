@@ -160,7 +160,7 @@ public final class ListTicketMachines_jsp extends org.apache.jasper.runtime.Http
       out.write("                        <input type=\"hidden\" name=\"TicketMachineId\" value=\"");
       out.print(ticketMachine.getMachineId());
       out.write("\">\r\n");
-      out.write("                        <input type=\"submit\" value=\"View Schedules\">\r\n");
+      out.write("                        <input type=\"submit\" value=\"View Schedule For This Machine\">\r\n");
       out.write("                    </form>\r\n");
       out.write("                    <form action=\"ListTicketMachines.jsp\">\r\n");
       out.write("                        <input type=\"hidden\" name=\"action\" value=\"deleteTicketMachine\">\r\n");

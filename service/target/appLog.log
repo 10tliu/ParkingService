@@ -1,11 +1,11 @@
-17:14:28.586 [main] DEBUG tristan.dao.jaxbimpl.TicketMachineDAOJaxbImpl - using dataFile:C:\devel\gitrepos\Assessment\parking\parkingservice\service\.\target\testfile.xml
-17:14:28.586 [main] DEBUG tristan.dao.jaxbimpl.TicketMachineDAOJaxbImpl - dataFile does not exist creating new C:\devel\gitrepos\Assessment\parking\parkingservice\service\.\target\testfile.xml
-17:14:28.586 [main] DEBUG tristan.dao.jaxbimpl.TicketMachineDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+19:38:33.485 [main] DEBUG tristan.dao.jaxbimpl.TicketMachineDAOJaxbImpl - using dataFile:C:\devel\gitrepos\Assessment\parking\parkingservice\service\.\target\testfile.xml
+19:38:33.485 [main] DEBUG tristan.dao.jaxbimpl.TicketMachineDAOJaxbImpl - dataFile does not exist creating new C:\devel\gitrepos\Assessment\parking\parkingservice\service\.\target\testfile.xml
+19:38:33.501 [main] DEBUG tristan.dao.jaxbimpl.TicketMachineDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <ticketMachineList>
     <entities/>
 </ticketMachineList>
 
-17:14:28.602 [main] DEBUG tristan.dao.jaxbimpl.TicketMachineDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+19:38:33.501 [main] DEBUG tristan.dao.jaxbimpl.TicketMachineDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <ticketMachineList>
     <lastEntityId>1</lastEntityId>
     <entities>
