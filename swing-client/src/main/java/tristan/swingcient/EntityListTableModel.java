@@ -71,7 +71,7 @@ public class EntityListTableModel extends AbstractTableModel {
             case 2:
                 return ticketMachine.getStayType();
             case 3:
-                return ticketMachine.getField_C();
+                //return ticketMachine.getField_C();
             default: // Optional
                 return null;
         }
@@ -124,7 +124,7 @@ public class EntityListTableModel extends AbstractTableModel {
                 ticketMachine.setStayType(value.toString());
                 break;
             case 3:
-                ticketMachine.setField_C(value.toString());
+                //ticketMachine.setField_C(value.toString());
                 break;
 
         }

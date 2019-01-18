@@ -90,11 +90,6 @@
     </dependencyManagement>
     
   <modules>
-    <module>model</module>
-    <module>dao-jaxb</module>
-    <module>service</module>
-    <module>web</module>
-    <module>rest-client</module>
       <!--un-comment when swing client is finished-->
     <!--<module>swing-client</module>-->
   </modules>
